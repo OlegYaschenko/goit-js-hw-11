@@ -27,7 +27,6 @@ function onSubmitSearchForm(e) {
   enableIntersectionObserver();
 
   const searchQuery = e.currentTarget.elements.searchQuery.value;
-
   pictureApiService.query = searchQuery;
   pictureApiService.resetPage();
   clearGalleryContainer();

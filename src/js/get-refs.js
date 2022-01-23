@@ -5,4 +5,4 @@ export default function getRefs() {
     gallery: document.querySelector('.gallery'),
     endOfResult: document.querySelector('.end-of-results')
   }
-}
+};
